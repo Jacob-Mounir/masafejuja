@@ -6,32 +6,25 @@ import './LandingPage.css'
 
 function LandingPage() {
 
-	return (
-		<>
-			<section className='landingPage'>
-				<Header />
-				<div className='welcome-text'>
-					<div>a</div>
-					<div>five</div>
-					<div>star</div>
-					<div>tasting</div>
-					<div>experience</div>
-				</div>
+    return (
+        <>
+        <div className='landing-page-wrapper'>
+                <Header />
+            <section className='landingPage'>
+                    <p>a</p>
+                    <p>five</p>
+                    <p>star</p>
+                    <p>tasting</p>
+                    <p>experience</p>
+                <div className='arrow-div'>
+                    <button> ↓ </button>
+                </div>
+            </section>
 
+        </div>
 
-				<div className='arrow-div'>
-
-					<button> ↓ </button>
-				</div>
-
-
-
-
-
-			</section>
-
-		</>
-	)
+        </>
+    )
 }
 
 export default LandingPage
